@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+.container {
+    text-align: center;
+}
+
+.subheading {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Add space between blocks */
+}
+
+.block {
+    background-color: white;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+}
+
+.block:hover {
+    transform: translateY(-10px); /* Lift the block on hover */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1rem;
+    color: gray;
+}
